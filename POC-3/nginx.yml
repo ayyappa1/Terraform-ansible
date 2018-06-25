@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Ensure nginx is running
+    apt:
+      name: nginx
+      state: absent 
