@@ -1,2 +1,2 @@
 # Terraform-ansible
-create infra structure and configure
+Terraform is a great tool for building infrastructure in the cloud. Ansible is a beautifully simple agentless (and serverless) configuration management tool. A common use case is to build servers with Terraform, and have Ansible configure them. Unfortunately Terraform lacks a provisioning plugin for Ansible - but fear not, they can be used together fairly trivially by using the local-exec provisioner of Terraform.
